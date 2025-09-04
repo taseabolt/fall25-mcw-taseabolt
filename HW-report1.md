@@ -8,15 +8,15 @@ Due: September 7, 2025
 
 ### Q1 - URL of GitHub Repo
 
-Insert your answer and explanation here
+https://github.com/taseabolt/CS625_HW1.git
 
 ### Q2 - Pull Command
 
-Insert your answer and explanation here
+The pull command works by sending remote changes to the local. 
 
 ### Q3 - Local Commits
 
-Insert your answer and explanation here
+If you have committed a change on your local machine but do not see the update on GitHub, then you may have forgotten to push the changes back to the branch.
 
 ## Markdown
 
