@@ -1,6 +1,6 @@
 # Homework 1: Tool Setup
 
-Insert Your Name Here  
+Tara Seabolt 
 CS 625, Fall 2025  
 Due: September 7, 2025
 
@@ -83,3 +83,4 @@ Insert your answer and explanation here
 * Graph Network using Vega-Lite or Vega, <https://stackoverflow.com/questions/77096216/graph-network-using-vega-lite-or-vega>
 * Calculating percentage change - Math for journalists, <https://observablehq.com/@nshiab/math-for-journalists>
 * ChatGPT: "How can I add an axis label to my line chart in Seaborn?", <https://chatgpt.com/share/684c8e25-4944-8011-b265-ae9aefc07959>
+* Cloning a Repository, <https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository>
