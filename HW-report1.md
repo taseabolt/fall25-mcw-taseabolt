@@ -35,7 +35,7 @@ This is an example of a paragraph within markdown. Within it, I will utilize the
 
 ### Q3 - Animal Image
 
-![Photo of a Rhino from Conde Nast Traveler!](/assets/images/rhinophoto.webp "Rhino")]
+![Photo of a Rhino from Conde Nast Traveler!](/assets/images/rhinophoto.webp "Rhino")
 
 ## Tableau
 
