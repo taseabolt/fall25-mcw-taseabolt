@@ -12,7 +12,7 @@ https://github.com/taseabolt/CS625_HW1.git
 
 ### Q2 - Pull Command
 
-The pull command works by sending remote changes to the local. 
+The pull command works by sending remote changes made on GitHub to the local machine. 
 
 ### Q3 - Local Commits
 
