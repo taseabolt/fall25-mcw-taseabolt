@@ -61,7 +61,7 @@ This is an example of a paragraph within markdown. Within it, I will utilize the
 
 ### Q3 - Outer Parenthesis
 
-When I removed the outer parenthesis and indentions, I received a syntax error since there was a break in code. However, once I combined the two lines of code to be on one line, I was able to successfully run the code and produce the expected plot / graph. 
+When I removed the outer parenthesis and indentions, I received a syntax error since there was a line break in the code. However, once I combined the two lines of code to one line, I was able to successfully run the code and produce the expected plot / graph. 
 
 ## Observable and Vega-Lite
 
