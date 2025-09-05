@@ -71,15 +71,15 @@ When I removed the outer parenthesis and indentions, I received a syntax error s
 
 ### Q1 - markCircle to markSquare
 
-Insert your answer and explanation here
+Changing markCircle to markSquare caused the individual plot points on the graph to change from a circle to a square.
 
 ### Q2 - markCircle to markPoint
 
-Insert your answer and explanation here
+Changing markCircle to markPoint caused the inddividual plot points on the graph to change from a fully colored in circle to the outline of a circle, with a hollow center.
 
 ### Q3 - Swap X and Y Axes on Scatterplot
 
-Insert your answer and explanation here
+In order to swap the x and y axes on the scatterplot, I changed vl.x().fieldQ("Horsepower") to vl.y().fieldQ("Horsepower") and changed vl.y().fieldQ("Miles_per_Gallon") to vl.x().fieldQ("Miles_per_Gallon").
 
 ### Q4 - Remove fieldN(Origin)
 
@@ -87,9 +87,6 @@ Insert your answer and explanation here
 
 ## References
 
-*Eavery report must include a References section that lists the webpages and URLs that you consulted while completing the assignment. Replace the items below with the references you consulted - these are just examples.* ***Everyone will use some reference to complete these assignments (even I would). You will lose points on your assignment if you do not include the references you used.***
-
-* Graph Network using Vega-Lite or Vega, <https://stackoverflow.com/questions/77096216/graph-network-using-vega-lite-or-vega>
 * Cloning a Repository, <https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository>
 * Basic Writing & Formatting Syntax, <https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax>
 * Markdown Guide: Basic Syntax, <https://markdownguide.offshoot.io/basic-syntax/>
@@ -99,3 +96,6 @@ Insert your answer and explanation here
 * Google Colaboratory: Frequently Asked Questions, <https://research.google.com/colaboratory/faq.html>
 * CS 523 Module 2 - Introduction to Python, <https://github.com/cci-web-science-security/web-science/blob/main/modules.md#module-2>
 * Breaking Up Long Lines of Code in Python, <https://www.pythonmorsels.com/breaking-long-lines-code-python/>
+* A Taste of Observable, <https://observablehq.com/@observablehq/a-taste-of-observable>
+* Charting with Vega-Lite, <https://observablehq.com/@observablehq/vega-lite>
+* Vega-Lite - Mark, <https://vega.github.io/vega-lite/docs/mark.html#types>
