@@ -35,7 +35,7 @@ This is an example of a paragraph within markdown. Within it, I will utilize the
 
 ### Q3 - Animal Image
 
-Insert your answer and explanation here
+![Rhinos are so majestic!](https://github.com/odu-cs625-datavis/fall25-mcw-taseabolt/blob/75190d6fdd74e97066f4d79b19f0de22b1f460d3/rhinophoto.webp "Rhino)
 
 ## Tableau
 
