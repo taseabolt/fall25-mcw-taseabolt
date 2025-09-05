@@ -53,11 +53,11 @@ This is an example of a paragraph within markdown. Within it, I will utilize the
 
 ### Q1 - First Penguin Image
 
-Insert your answer and explanation here
+![Image of First Penguin Chart in GoogleCoLab](/firstpenguinimage.png "First image")
 
 ### Q2 - Second Penguin Image
 
-Insert your answer and explanation here
+![Image of Second Penguin Chart in GoogleCoLab](/secondpenguinimage.png "Second image")
 
 ### Q3 - Outer Parenthesis
 
