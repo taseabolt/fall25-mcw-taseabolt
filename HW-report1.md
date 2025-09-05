@@ -31,7 +31,7 @@ A bulleted list is different from a numbered list due to it being unordered.
 
 ### Q2 - Markdown Paragraph
 
-This is an example of a paragraph within markdown. Within it, I will utilize the markdown lanuage to show *italics*, **bold**, and ***bold italics***. I will also show how to specify `lines of code` within markdown as well, in addition to providing links to specific websites, like [GitHub Docs](https://docs.github.com/en).
+This is an example of a paragraph within markdown. Within it, I will utilize the markdown language to show *italics*, **bold**, and ***bold italics***. I will also show how to specify `lines of code` within markdown as well, in addition to providing links to specific websites, like [GitHub Docs](https://docs.github.com/en).
 
 ### Q3 - Animal Image
 
