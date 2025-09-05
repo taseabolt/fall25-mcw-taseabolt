@@ -22,10 +22,12 @@ If you have committed a change on your local machine but do not see the update o
 
 ### Q1 - Bulleted List
 
-#### _Bulleted List_ ####
-- First Item
-- Second Item
-- Third Item
+#### _Favorite Foods List_ ####
+- Pizza
+- Dal Makhani
+- Burritos
+
+A bulleted list is different from a numbered list due to it being unordered. 
 
 ### Q2 - Markdown Paragraph
 
