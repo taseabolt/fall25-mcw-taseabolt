@@ -41,7 +41,7 @@ This is an example of a paragraph within markdown. Within it, I will utilize the
 
 ### Q1 - Region Other Than the South
 
-Insert your answer and explanation here
+![Image of Sales in the East chart from Tableau](/salesintheeast.png "Sales in the East")
 
 ## Google Colab
 
