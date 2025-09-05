@@ -61,7 +61,7 @@ Insert your answer and explanation here
 
 ### Q3 - Outer Parenthesis
 
-Insert your answer and explanation here
+When I removed the outer parenthesis and indentions, I received a syntax error since there was a break in code. However, once I combined the two lines of code to be on one line, I was able to successfully run the code and produce the expected plot / graph. 
 
 ## Observable and Vega-Lite
 
