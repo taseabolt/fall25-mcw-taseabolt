@@ -1,6 +1,6 @@
 # Homework 1: Tool Setup
 
-Tara Seabolt 
+Tara Seabolt
 CS 625, Fall 2025  
 Due: September 7, 2025
 
@@ -91,3 +91,4 @@ Insert your answer and explanation here
 * Cloning a Repository, <https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository>
 * Basic Writing & Formatting Syntax, <https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax>
 * Markdown Guide: Basic Syntax, <https://markdownguide.offshoot.io/basic-syntax/>
+* Rhino Photo from "This Baby Animal from India is the Cutest in the World", <https://www.cntraveller.in/story/this-baby-animal-from-india-is-the-cutest-in-the-world/>
