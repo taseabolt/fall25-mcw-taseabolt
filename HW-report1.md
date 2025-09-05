@@ -92,3 +92,4 @@ Insert your answer and explanation here
 * GitHub Docs, <https://docs.github.com/en>
 * Rhino Photo from "This Baby Animal from India is the Cutest in the World", <https://www.cntraveller.in/story/this-baby-animal-from-india-is-the-cutest-in-the-world/>
 * Tutorial: Getting Started with Tableau Desktop, <https://help.tableau.com/current/guides/get-started-tutorial/en-us/get-started-tutorial-home.htm>
+* Google Colaboratory: Frequently Asked Questions, <https://research.google.com/colaboratory/faq.html>
