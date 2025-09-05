@@ -22,7 +22,7 @@ If you have committed a change on your local machine but do not see the update o
 
 ### Q1 - Bulleted List
 
-#### _Favorite Foods List_ ####
+#### ***Favorite Foods List*** ####
 - Pizza
 - Dal Makhani
 - Burritos
@@ -31,7 +31,7 @@ A bulleted list is different from a numbered list due to it being unordered.
 
 ### Q2 - Markdown Paragraph
 
-Insert your answer and explanation here
+This is an example of a paragraph within markdown. Within it, I will utilize the markdown lanuage to show *italics*, **bold**, and ***bold italics***.
 
 ### Q3 - Animal Image
 
