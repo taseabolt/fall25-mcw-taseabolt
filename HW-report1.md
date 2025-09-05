@@ -53,7 +53,7 @@ This is an example of a paragraph within markdown. Within it, I will utilize the
 
 ### Q1 - First Penguin Image
 
-![Image of First Penguin Chart in GoogleCoLab](/firstpenguinimage.png "First image")
+![Image of First Penguin Chart in GoogleCoLab](/firstpengiunimagenimage.png "First image")
 
 ### Q2 - Second Penguin Image
 
