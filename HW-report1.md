@@ -1,6 +1,6 @@
 # Homework 1: Tool Setup
 
-Tara Seabolt
+Tara Seabolt  
 CS 625, Fall 2025  
 Due: September 7, 2025
 
@@ -97,3 +97,5 @@ Insert your answer and explanation here
 * Rhino Photo from "This Baby Animal from India is the Cutest in the World", <https://www.cntraveller.in/story/this-baby-animal-from-india-is-the-cutest-in-the-world/>
 * Tutorial: Getting Started with Tableau Desktop, <https://help.tableau.com/current/guides/get-started-tutorial/en-us/get-started-tutorial-home.htm>
 * Google Colaboratory: Frequently Asked Questions, <https://research.google.com/colaboratory/faq.html>
+* CS 523 Module 2 - Introduction to Python, <https://github.com/cci-web-science-security/web-science/blob/main/modules.md#module-2>
+* Breaking Up Long Lines of Code in Python, <https://www.pythonmorsels.com/breaking-long-lines-code-python/>
