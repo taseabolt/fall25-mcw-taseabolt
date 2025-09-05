@@ -47,7 +47,7 @@ This is an example of a paragraph within markdown. Within it, I will utilize the
 
 ### Q1 - URL of Google Colab Notebook
 
-[Insert your answer and explanation here](https://colab.research.google.com/drive/1cZWRa-PQjnpkHzAuR35XgdDkYMn4uMEl?usp=sharing)
+[Tara's copy of the notebook](https://colab.research.google.com/drive/1cZWRa-PQjnpkHzAuR35XgdDkYMn4uMEl?usp=sharing)
 
 ## Python/Seaborn
 
