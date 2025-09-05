@@ -55,9 +55,13 @@ This is an example of a paragraph within markdown. Within it, I will utilize the
 
 ![Image of First Penguin Chart in GoogleCoLab](/firstpengiunimage.png "First image")
 
+This figure is showing a plot of the penguin bill length on the x-axis vs bill size on the y-axis, both in millimeters.
+
 ### Q2 - Second Penguin Image
 
 ![Image of Second Penguin Chart in GoogleCoLab](/secondpenguinimage.png "Second image")
+
+This figure is showing a bar graph of the body mass (in grams) on the x-axis for the three different penguin species listed on the y-axis.
 
 ### Q3 - Outer Parenthesis
 
