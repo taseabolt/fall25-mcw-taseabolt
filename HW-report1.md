@@ -83,7 +83,9 @@ In order to swap the x and y axes on the scatterplot, I changed vl.x().fieldQ("H
 
 ### Q4 - Remove fieldN(Origin)
 
-Insert your answer and explanation here
+![Count of Car Records bar graph](/countofrecords.png "Count of Records")
+
+This is the result of the code change because it completely removed the y-axis variable from the graph, resulting in only the x-axis count aggregation being displayed.
 
 ## References
 
