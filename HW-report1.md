@@ -86,9 +86,8 @@ Insert your answer and explanation here
 *Eavery report must include a References section that lists the webpages and URLs that you consulted while completing the assignment. Replace the items below with the references you consulted - these are just examples.* ***Everyone will use some reference to complete these assignments (even I would). You will lose points on your assignment if you do not include the references you used.***
 
 * Graph Network using Vega-Lite or Vega, <https://stackoverflow.com/questions/77096216/graph-network-using-vega-lite-or-vega>
-* Calculating percentage change - Math for journalists, <https://observablehq.com/@nshiab/math-for-journalists>
-* ChatGPT: "How can I add an axis label to my line chart in Seaborn?", <https://chatgpt.com/share/684c8e25-4944-8011-b265-ae9aefc07959>
 * Cloning a Repository, <https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository>
 * Basic Writing & Formatting Syntax, <https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax>
 * Markdown Guide: Basic Syntax, <https://markdownguide.offshoot.io/basic-syntax/>
 * Rhino Photo from "This Baby Animal from India is the Cutest in the World", <https://www.cntraveller.in/story/this-baby-animal-from-india-is-the-cutest-in-the-world/>
+* Tutorial: Getting Started with Tableau Desktop, <https://help.tableau.com/current/guides/get-started-tutorial/en-us/get-started-tutorial-home.htm>
