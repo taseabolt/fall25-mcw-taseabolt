@@ -22,7 +22,10 @@ If you have committed a change on your local machine but do not see the update o
 
 ### Q1 - Bulleted List
 
-Insert your answer and explanation here
+#### _Bulleted List_ ####
+- First Item
+- Second Item
+- Third Item
 
 ### Q2 - Markdown Paragraph
 
@@ -84,3 +87,4 @@ Insert your answer and explanation here
 * Calculating percentage change - Math for journalists, <https://observablehq.com/@nshiab/math-for-journalists>
 * ChatGPT: "How can I add an axis label to my line chart in Seaborn?", <https://chatgpt.com/share/684c8e25-4944-8011-b265-ae9aefc07959>
 * Cloning a Repository, <https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository>
+* Markdown Guide: Basic Syntax <https://markdownguide.offshoot.io/basic-syntax/>
