@@ -24,7 +24,7 @@ Due: September 21, 2025
 
 3. How many **guinea pigs** are in your cleaned dataset?  
    There are 13 guinea pigs within my cleaned dataset after cleaning each row utilizing the ***Cluster and Edit*** options for each column, as described in steps 1 and 2 of Part 1 of my clean up the *Pet's Breed* column.
-![Screenshot of OpenRefine](/HW2%20-%20Question%203.png "Screenshot of my OpenRefine report for HW2 - Question 3")
+<img src="HW2%20-%20Question%203.png" height="100" alt="Screenshot of my OpenRefine report for HW2 - Question 3">
 
 4. Who is the **oldest dog** in your cleaned dataset? Give the dog's name, breed, and age. If there's a tie, list all oldest dogs.  
   The oldest dog within my cleaned dataset is ***Dino***, who is a Keeshound and is 30 years of age (wow!). By cleaning up the *Pet's age* column using steps 1 through 4 within Step 1, I was able to convert the column to numbers and remove any unnecessary characters or text within the column through GREL expressions.
@@ -32,7 +32,7 @@ Due: September 21, 2025
 
 5. What is the **most popular everyday name for a dog** in your cleaned dataset? If there's a tie, list all top names and number of occurrences.  
   The most popular everyday name for a dog within my cleaned dataset is ***Daisy***, with 12 dogs listed as having that as an everyday name. Cleaning up the *Pet's everyday name* column my steps in Part 1, I was able to merge many similar names and remove unnecessary text by transforming text within the columns using GREL expressions, including removing parentheisis and commas and converting all words with Title Case to ensure continuity.
-![Screenshot of OpenRefine](/HHW2%20-%20Question%205.png "Screenshot of my OpenRefine report for HW2 - Question 5")
+![Screenshot of OpenRefine](/HW2%20-%20Question%205.png "Screenshot of my OpenRefine report for HW2 - Question 5")
 
 
 ## References
