@@ -8,26 +8,31 @@ Due: September 21, 2025
 
 ### **Part 1: Cleaning Data**
 1. To begin my homework 2 assignment after uplaoding the Pet Names data and creating a new report within OpenRefine, I utilized the ***Cluster and Edit*** feature on various columns, including *What kind of pet is this*, *Pet's Full Name*, *Pet's Everyday Name* and *Pet's Breed*. I went through the different cluster features, including both *key collision* and *nearest neighbor* along with each keying function to locate different groups of cell values that refered to the same names or values. I reveiwed each and then merged clusters as indicated.
-2. After completing my cluster review, I utlized the ***Text Facet*** feature to further edit cell values in the ***Cluster and Edit*** that were similar and also utilized other columns (such as the *Pet's Breed* column to make deductions about what kind of pet should have been entered into the cell for the *What kind of pet is this* column.
-3. Next, I decided to tackle the *Pet's Age* column where I used a transform expression of **value.replace(/(\d+).*$/, "$1")** to remove text after a number in non-numerical columns. Then I transformed the data to a number by using edit cells, common transforms, and the **to number** feature. For the remianing few columns that had text before values or values that were spelled out instead of utilizng a number, I used the ***Text Facet*** feature to edit the remaining cells manually.
-4. Finally, I utilized various GREL expressions such as **value.replace("(","").replace(")","")**, **value.replace(",","").replace(",","")**, and **value.toTitlecase()** on the *Pet's full name* and *Pet's everyday name* columns to remove text with parentheiss and commas and to convert all words within the columns to Title Case for continuity.
+2. After completing my cluster review for each of the columns listed above, I utlized the ***Text Facet*** feature to further edit cell values that were similar. I made sure similar values were changed to the same values for continutity and good data practices. I also utilized other columns (such as the *Pet's Breed* column) to make deductions about what kind of pet should have been entered into the cell for the *What kind of pet is this* column. If there were multiple pets entered on the same line, I utilized the first kind of pet / pet name / pet breed for the cells and disregarded the second values so that each line only contains information about one pet. 
+3. Next, I decided to tackle the *Pet's Age* column where I used a transform expression of `value.replace(/(\d+).*$/, "$1")` to remove text after a number for any non-numerical values. To get the non-numerical values, I opned the numerical facet and filtered to only the non-numerical values. After transforming the data, I then used the edit cells, common transforms, and the **to number** feature on the data to transform all the data entered into numbers (which is reprsented by the text in the columns converting to a green color form black, indicatin numerical values). For the remianing few columns that had text before values or values that were spelled out instead of utilizng a number, I used the ***Text Facet*** feature to edit the remaining cells manually and remove unncessary information from the cell that was not related to a numerical age and to convert the text answers to a number as well.
+4. Finally, I utilized various GREL expressions such as `value.replace("(","").replace(")","")`, `value.replace(",","").replace(",","")`, and `value.toTitlecase()` on the *Pet's full name* and *Pet's everyday name* columns to remove any text with parentheiss and commas and to convert all words within the columns to *Title Case* for continuity.
 
 
 ### **Part 2: Analyze Cleaned Data **
 1. How many **kinds of pets** are in your cleaned dataset?  
-   There are 31 different types of pets within my cleaned dataset, after utilizing steps 1-2 in Part 1 to clean the column titled *What kind of pet is this?*. 
+   There are 31 different types of pets within my cleaned dataset. I came to this conclusion after utilizing steps 1-2 in Part 1 to clean the column titled *What kind of pet is this?* through ***Cluster and Edit*** to merge similiar values together and by using the ***Text facet*** open to edit values manually that were similar as well.
+![Screenshot of OpenRefine](/HW2- Question 1.png "Screenshot of my OpenRefine report for HW2 - Question 1")
 
 2. How many **breeds of cats** are in your cleaned dataset?  
-   There are about 58 different breeds of cats within my cleaned dataset. This was the result after I utilized the clenaing steps 1-2 within Part 1 to clean up the *Pet's Breed* and *What kind of pet is this* columns. 
+   There are about 58 different breeds of cats within my cleaned dataset. This was the result after I utilized the clenaing steps 1-2 within Part 1 to clean up the *Pet's Breed* and *What kind of pet is this* columns.
+![Screenshot of OpenRefine](/HW2- Question 2.png "Screenshot of my OpenRefine report for HW2 - Question 2")
 
 3. How many **guinea pigs** are in your cleaned dataset?  
    There are 13 guinea pigs within my cleaned dataset after cleaning each row utilizing the ***Cluster and Edit*** options for each column, as described in steps 1 and 2 of Part 1 of my clean up the *Pet's Breed* column.
+![Screenshot of OpenRefine](/HW2- Question 3.png "Screenshot of my OpenRefine report for HW2 - Question 3")
 
 4. Who is the **oldest dog** in your cleaned dataset? Give the dog's name, breed, and age. If there's a tie, list all oldest dogs.  
   The oldest dog within my cleaned dataset is ***Dino***, who is a Keeshound and is 30 years of age (wow!). By cleaning up the *Pet's age* column using steps 1 through 4 within Step 1, I was able to convert the column to numbers and remove any unnecessary characters or text within the column through GREL expressions.
+![Screenshot of OpenRefine](/HW2- Question 4.png "Screenshot of my OpenRefine report for HW2 - Question 4")
 
 5. What is the **most popular everyday name for a dog** in your cleaned dataset? If there's a tie, list all top names and number of occurrences.  
-  The most popular everyday name for a dog within my cleaned dataset is ***Daisy***, with 12 dogs listed as having that as an everyday name. Cleaning up the *Pet's everyday name* column my steps in Part 1, I was able to merge many similar names and remove unnecessary text by transforming text within the columns using GREL expressions, including removing parentheisis and commas and converting all words with Title Case to ensure continuity. 
+  The most popular everyday name for a dog within my cleaned dataset is ***Daisy***, with 12 dogs listed as having that as an everyday name. Cleaning up the *Pet's everyday name* column my steps in Part 1, I was able to merge many similar names and remove unnecessary text by transforming text within the columns using GREL expressions, including removing parentheisis and commas and converting all words with Title Case to ensure continuity.
+![Screenshot of OpenRefine](/HW2- Question 5.png "Screenshot of my OpenRefine report for HW2 - Question 5")
 
 
 ## References
