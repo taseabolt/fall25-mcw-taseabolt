@@ -14,19 +14,19 @@ Due: September 21, 2025
 
 
 ### **Part 2: Analyze Cleaned Data **
-1. How many **kinds of pets** are in your cleaned dataset?
+1. How many **kinds of pets** are in your cleaned dataset?  
    There are 31 different types of pets within my cleaned dataset, after utilizing steps 1-2 in Part 1 to clean the column titled *What kind of pet is this?*. 
 
-2. How many **breeds of cats** are in your cleaned dataset?
+2. How many **breeds of cats** are in your cleaned dataset?  
    There are about 58 different breeds of cats within my cleaned dataset. This was the result after I utilized the clenaing steps 1-2 within Part 1 to clean up the *Pet's Breed* and *What kind of pet is this* columns. 
 
-3. How many **guinea pigs** are in your cleaned dataset?
+3. How many **guinea pigs** are in your cleaned dataset?  
    There are 13 guinea pigs within my cleaned dataset after cleaning each row utilizing the ***Cluster and Edit*** options for each column, as described in steps 1 and 2 of Part 1 of my clean up the *Pet's Breed* column.
 
-4. Who is the **oldest dog** in your cleaned dataset? Give the dog's name, breed, and age. If there's a tie, list all oldest dogs.
+4. Who is the **oldest dog** in your cleaned dataset? Give the dog's name, breed, and age. If there's a tie, list all oldest dogs.  
   The oldest dog within my cleaned dataset is ***Dino***, who is a Keeshound and is 30 years of age (wow!). By cleaning up the *Pet's age* column using steps 1 through 4 within Step 1, I was able to convert the column to numbers and remove any unnecessary characters or text within the column through GREL expressions.
 
-5. What is the **most popular everyday name for a dog** in your cleaned dataset? If there's a tie, list all top names and number of occurrences.
+5. What is the **most popular everyday name for a dog** in your cleaned dataset? If there's a tie, list all top names and number of occurrences.  
   The most popular everyday name for a dog within my cleaned dataset is ***Daisy***, with 12 dogs listed as having that as an everyday name. Cleaning up the *Pet's everyday name* column my steps in Part 1, I was able to merge many similar names and remove unnecessary text by transforming text within the columns using GREL expressions, including removing parentheisis and commas and converting all words with Title Case to ensure continuity. 
 
 
