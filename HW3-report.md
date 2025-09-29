@@ -17,9 +17,9 @@ Due: September 28, 2025
 - <img src="Ave Price Fuel Electricity.png" height="250" alt="Average Price of Fuel and Electricity in 2010">
 - Idiom: Bar Chart / Mark: Line  
 | Data: Attribute | Data: Attribute Type  | Encode: Channel | 
-| --- |---| --- |
-| type of fuel | key, categorical | separate, horizontal position (x-axis) |
-| average price | value, quantitative | aligned vertical position (y-axis) |
+| --- |---| --- |  
+| type of fuel | key, categorical | separate, horizontal position (x-axis) |  
+| average price | value, quantitative | aligned vertical position (y-axis) |  
 
 - Link to Excel workbook: ([Average Price of Fuel & Electricity in 2010](https://github.com/odu-cs625-datavis/fall25-mcw-taseabolt/blob/e1f8c3b13d92b2760a74a60596b752aaea95ca8f/Avg%20Price%20Fuel%20Electricity.xlsx))
   
@@ -39,9 +39,9 @@ Due: September 28, 2025
 - <img src="Number of Veterans by Period of Service and State.png" height="250" alt="Number of Veterans by Period of Service and State">
 - Idiom: Multiple Line Chart / Mark: Points with connection marks  
 | Data: Attribute | Data: Attribute Type  | Encode: Channel | 
-| --- |---| --- |
-| state | key, ordered | separate, horizontal position (x-axis) |
-| number of veterans | value, quantitative | aligned vertical position (y-axis) |
+| --- |---| --- |  
+| state | key, ordered | separate, horizontal position (x-axis) |  
+| number of veterans | value, quantitative | aligned vertical position (y-axis) |  
 | period of service | categorical | color hue |
 
 - Link to Excel workbook: ([Number of Veterans by Period of Service and State](https://github.com/odu-cs625-datavis/fall25-mcw-taseabolt/blob/e1f8c3b13d92b2760a74a60596b752aaea95ca8f/Veterans%20by%20Period%20of%20Service%20State.xlsx))
