@@ -37,7 +37,7 @@ Due: September 28, 2025
 - The visulzation idiom of a line chart was an appropriate choice for this dataset because it shows the total number of Veterans as a quantitative value on the y-axis and the ordered states on the x-axis along with allowing the categorical period of service to be representated on different lines, each being distingiuished by a different color.
 
 - <img src="Number of Veterans by Period of Service and State.png" height="250" alt="Number of Veterans by Period of Service and State">
-- Idiom: Multiple Line Chart / Mark: Points with connection marks   
+- Idiom: Multiple Line Chart / Mark: Points with connection marks  
 | Data: Attribute     | Data: Attribute Type | Encode: Channel                           |
 |---|---|---|
 | state               | key, ordered         | separate, horizontal position (x-axis)    |
