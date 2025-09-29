@@ -8,21 +8,32 @@ Due: September 28, 2025
 
 ### **Data**
 
-- For my bar chart visulzation, I utilized Table 
-- For this specific dataset, I decided to focus on the average price of fuel and electricity in the year 2010 in order to focus in on the price for each different element from one particular year. 
+- For my bar chart visualization, I utilized *Table 730* from **Section 14: Prices**, <https://www.census.gov/library/publications/2011/compendia/statab/131ed/prices.html>
+- For this specific dataset, I decided to focus on the average price of fuel and electricity in the year 2010 to show the prices for each different element from one particular year, so I removed all other data. 
 
 ### **Chart Description**
+- The visualization idiom of a bar chart was an appropriate choice for this dataset because it shows the total number of prices in the year 2010 for each element, providing a visualizstion of the differences in price.
+
+- Idiom: Bar Chart / Mark: Line
+| Data: Attribute | Data: Attribute Type  | Encode: Channel | 
+| --- |---| --- |
+| type of fuel | key, categorical | separate, horizontal position (x-axis) |
+| average price | value, quantitative | aligned vertical position (y-axis) |
+
+- Link to Excel workbook:
+  
+- The only customization that I did for this chart was making the bars blue to provide itnerest and draw attention to the attributes listed.
 
 
 ## Line Chart
 
 ### **Data**
 
-- For my bar chart visulzation, I utilized Table 520 from Section 10: National Security & Veterans Affairs, <https://www.census.gov/library/publications/2011/compendia/statab/131ed/national-security-veterans-affairs.html>  
+- For my bar chart visualization, I utilized *Table 520* from **Section 10: National Security & Veterans Affairs**, <https://www.census.gov/library/publications/2011/compendia/statab/131ed/national-security-veterans-affairs.html>.
 - For this specific dataset, I removed the District of Columbia and also removed the overall totals for the United States, focusing only on the number of Veterans during each period of service from each state.  
 
 ### **Chart Description**
-- The visulzation idiom was an appropriate choice for this dataset because it shows the total number of Veterans as a quantitative value on the y-axis and the ordered states on the x-axis along with allowing the categorical period of service to be representated on different lines, each being distingiuished by a different color.
+- The visulzation idiom of a line chart was an appropriate choice for this dataset because it shows the total number of Veterans as a quantitative value on the y-axis and the ordered states on the x-axis along with allowing the categorical period of service to be representated on different lines, each being distingiuished by a different color.
 
 - Idiom: Multiple Line Chart / Mark: Points with connection marks
 | Data: Attribute | Data: Attribute Type  | Encode: Channel | 
@@ -31,46 +42,43 @@ Due: September 28, 2025
 | number of veterans | value, quantitative | aligned vertical position (y-axis) |
 | period of service | categorical | color hue |
 
-- Link to excel workbook:
+- Link to Excel workbook:
+
+- Link to Tableau workbook (for the recreated chart):
+
+- For both my Excel and Tableau visualizations, I chose to customize the line colors to blue and red in order to distinguish between the two attributes but to provide consistency in both visualizations, so each color correlated to the same attribute in both. 
 
 
 ## Scatter Plot
 
 ### **Data**
 
+- For my scatter plot visualization, I utilized *Table 78* from **Section 2: Births, Deaths, Marriages, and Divorce** <https://www.census.gov/library/publications/2011/compendia/statab/131ed/births-deaths-marriages-divorces.html>.
+- For this specific dataset, I decided to focus in on the marriage and divorce values only for the years 1977 to 1997 so that I could compare the two values over the course of two decades.
+
 ### **Chart Description**
 
-## Discussion
+-- The visualization idiom of a scatter plot was an appropriate choice for this dataset because it shows the relationship between marriange and divorce numbers from 1977 to 1997, highlighting trends over time and to see if there may be a correlation between the two values.
 
+- Idiom: Scatterplot / Mark: Point
+| Data: Attribute | Data: Attribute Type  | Encode: Channel | 
+| --- |---| --- |
+| marriage numbers | value, quantitative | horizontal spatial position (x-axis) |
+| divorce numbers | value, quantitative | vertical spatial position  (y-axis) |
+
+- Link to Excel workbook:
+- My only custimization that I did, aside from choosing the same colors and axis labels as my other visualizations, was utilizing data labels to incorporate the year for each point, to make it easier to understand and comprehend.
+
+## Discussion
+I recreated my Line Chart within Tableau, using the same dataset and thought that using this tool was quite eaiser than using Excel. Tableau allows for a more intuitive way to build visualizations through a more user firendly dashboard configuration, which made it easer to change out data for each axis and to quickly customize labels and colors as well.
 
 ## References
 * Markdown Guide: Basic Syntax, <https://markdownguide.offshoot.io/basic-syntax/>
 * Basic Writing & Formatting Syntax, <https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax>
+* Section 14: Prices, <https://www.census.gov/library/publications/2011/compendia/statab/131ed/prices.html>
 * Section 10: National Security & Veterans Affairs, <https://www.census.gov/library/publications/2011/compendia/statab/131ed/national-security-veterans-affairs.html>
+* Section 2: Births, Deaths, Marriages, and Divorce, <https://www.census.gov/library/publications/2011/compendia/statab/131ed/births-deaths-marriages-divorces.html>
 * Chart Redesigns, <https://github.com/odu-cs625-datavis/public-fall25-mcw/blob/main/Chart-Redesigns.md>
 * Idiom-Mark-Data-Encode Table Examples, <https://github.com/odu-cs625-datavis/public-fall25-mcw/blob/main/idiom-mark-data-encode-Examples.md>
-* 
-
-
-Data
-
-name the table and section of the dataset(s) you've chosen
-for example, in class we looked at Table 133 from Section 2 Births, Deaths, Marriages, and Divorces, https://www.census.gov/library/publications/2011/compendia/statab/131ed/births-deaths-marriages-divorces.html
-describe any manipulation you performed on the data to prepare it for visualization, this includes choosing to use only subsets of the data (justify your decisions)
-Chart Description
-
-For each chart you create, provide the following:
-
-explain how the visualization idiom you used was an appropriate choice for your dataset
-an idiom/mark/data/encode table (see Idiom-Mark-Data-Encode Table Examples)
-an appropriately-sized image of and link to each chart you created
-Excel, Tableau - link to your spreadsheet/workbook in your GitHub repo
-Vega-Lite - provide a link to your notebook (see Note about Using Observable for sharing instructions)
-Seaborn in Google Colab - provide a link to your notebook (make sure to share with GTA and instructor) or link to your ipynb file in your GitHub repo
-Seaborn locally - link to your Python code in your GitHub repo
-other tools - ask if you have questions about what should be submitted
-discuss any special customizations you used
-Discussion - For the chart that you recreated in another tool, give an assesment of which tool you thought was easier to use and customize.
-
-References - List any resources you consulted. It is not acceptable to leave this part blank. It is OK, and even expected, that you to refer to some code examples, but they must be documented here.
+* Build Charts & Analyze Data, <https://help.tableau.com/current/pro/desktop/en-us/design_and_analyze.htm>
 
