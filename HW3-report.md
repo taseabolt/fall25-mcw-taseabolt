@@ -17,7 +17,7 @@ Due: September 28, 2025
 - <img src="Ave Price Fuel Electricity.png" height="250" alt="Average Price of Fuel and Electricity in 2010">
 - Idiom: Bar Chart / Mark: Line  
 | Data: Attribute | Data: Attribute Type  | Encode: Channel | 
-| --- |---| --- |  
+| --- |---| --- |
 | type of fuel | key, categorical | separate, horizontal position (x-axis) |  
 | average price | value, quantitative | aligned vertical position (y-axis) |  
 
@@ -37,11 +37,11 @@ Due: September 28, 2025
 - The visulzation idiom of a line chart was an appropriate choice for this dataset because it shows the total number of Veterans as a quantitative value on the y-axis and the ordered states on the x-axis along with allowing the categorical period of service to be representated on different lines, each being distingiuished by a different color.
 
 - <img src="Number of Veterans by Period of Service and State.png" height="250" alt="Number of Veterans by Period of Service and State">
-- Idiom: Multiple Line Chart / Mark: Points with connection marks  
+- Idiom: Multiple Line Chart / Mark: Points with connection marks   
 | Data: Attribute | Data: Attribute Type  | Encode: Channel | 
-| --- |---| --- |  
-| state | key, ordered | separate, horizontal position (x-axis) |  
-| number of veterans | value, quantitative | aligned vertical position (y-axis) |  
+| --- |---| --- |
+| state | key, ordered | seperate, horizontal position (x-axis) |
+| number of veterans | value, quantitative | aligned vertical position (y-axis) |
 | period of service | categorical | color hue |
 
 - Link to Excel workbook: ([Number of Veterans by Period of Service and State](https://github.com/odu-cs625-datavis/fall25-mcw-taseabolt/blob/e1f8c3b13d92b2760a74a60596b752aaea95ca8f/Veterans%20by%20Period%20of%20Service%20State.xlsx))
