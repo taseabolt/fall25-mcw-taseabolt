@@ -60,13 +60,15 @@ Due: September 28, 2025
 
 -- The visualization idiom of a scatter plot was an appropriate choice for this dataset because it shows the relationship between marriange and divorce numbers from 1977 to 1997, highlighting trends over time and to see if there may be a correlation between the two values.
 
-- Idiom: Scatterplot / Mark: Point
+- <img src="Marriage and Divorce rate 1977 to 1997.png" height="200" alt="Marriage and Death numbers from 1977 to 1997 Scatter Plot">
+Idiom: Scatterplot / Mark: Point
 | Data: Attribute | Data: Attribute Type  | Encode: Channel | 
 | --- |---| --- |
 | marriage numbers | value, quantitative | horizontal spatial position (x-axis) |
 | divorce numbers | value, quantitative | vertical spatial position  (y-axis) |
 
-- Link to Excel workbook:
+- Link to Excel workbook:([Marriage and Death numbers 1977 to 1997.xlsx](https://github.com/odu-cs625-datavis/fall25-mcw-taseabolt/blob/7b70190f8ae835b02f431bad75d4b8bc67d3c8e5/Marriage%20and%20Death%20numbers%201977%20to%201997.xlsx))
+
 - My only custimization that I did, aside from choosing the same colors and axis labels as my other visualizations, was utilizing data labels to incorporate the year for each point, to make it easier to understand and comprehend.
 
 ## Discussion
