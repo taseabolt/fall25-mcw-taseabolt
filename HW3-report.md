@@ -40,9 +40,10 @@ Due: September 28, 2025
 - Idiom: Multiple Line Chart / Mark: Points with connection marks   
 | Data: Attribute | Data: Attribute Type  | Encode: Channel | 
 | --- | --- | --- |
-| state | key, ordered | seperate, horizontal position (x-axis) |
+| state | key, ordered | seperate, horizontal position (x-axis)
 | number of veterans | value, quantitative | aligned vertical position (y-axis) |
 | period of service | categorical | color hue |
+| divorce numbers | value, quantitative | vertical spatial position  (y-axis) |
 
 - Link to Excel workbook: ([Number of Veterans by Period of Service and State](https://github.com/odu-cs625-datavis/fall25-mcw-taseabolt/blob/e1f8c3b13d92b2760a74a60596b752aaea95ca8f/Veterans%20by%20Period%20of%20Service%20State.xlsx))
 
