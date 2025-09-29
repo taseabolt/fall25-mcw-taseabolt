@@ -14,13 +14,14 @@ Due: September 28, 2025
 ### **Chart Description**
 - The visualization idiom of a bar chart was an appropriate choice for this dataset because it shows the total number of prices in the year 2010 for each element, providing a visualizstion of the differences in price.
 
+- <img src="Ave Price Fuel Electricity.png" height="250" alt="Average Price of Fuel and Electricity in 2010">
 - Idiom: Bar Chart / Mark: Line
 | Data: Attribute | Data: Attribute Type  | Encode: Channel | 
 | --- |---| --- |
 | type of fuel | key, categorical | separate, horizontal position (x-axis) |
 | average price | value, quantitative | aligned vertical position (y-axis) |
 
-- Link to Excel workbook:
+- Link to Excel workbook: ([Average Price of Fuel & Electricity in 2010](https://github.com/odu-cs625-datavis/fall25-mcw-taseabolt/blob/e1f8c3b13d92b2760a74a60596b752aaea95ca8f/Avg%20Price%20Fuel%20Electricity.xlsx))
   
 - The only customization that I did for this chart was making the bars blue to provide itnerest and draw attention to the attributes listed.
 
@@ -35,6 +36,7 @@ Due: September 28, 2025
 ### **Chart Description**
 - The visulzation idiom of a line chart was an appropriate choice for this dataset because it shows the total number of Veterans as a quantitative value on the y-axis and the ordered states on the x-axis along with allowing the categorical period of service to be representated on different lines, each being distingiuished by a different color.
 
+- <img src="Number of Veterans by Period of Service and State.png" height="250" alt="Number of Veterans by Period of Service and State">
 - Idiom: Multiple Line Chart / Mark: Points with connection marks
 | Data: Attribute | Data: Attribute Type  | Encode: Channel | 
 | --- |---| --- |
@@ -42,7 +44,7 @@ Due: September 28, 2025
 | number of veterans | value, quantitative | aligned vertical position (y-axis) |
 | period of service | categorical | color hue |
 
-- Link to Excel workbook:
+- Link to Excel workbook: ([Number of Veterans by Period of Service and State](https://github.com/odu-cs625-datavis/fall25-mcw-taseabolt/blob/e1f8c3b13d92b2760a74a60596b752aaea95ca8f/Veterans%20by%20Period%20of%20Service%20State.xlsx))
 
 - Link to Tableau workbook (for the recreated chart):
 
@@ -58,9 +60,9 @@ Due: September 28, 2025
 
 ### **Chart Description**
 
--- The visualization idiom of a scatter plot was an appropriate choice for this dataset because it shows the relationship between marriange and divorce numbers from 1977 to 1997, highlighting trends over time and to see if there may be a correlation between the two values.
+- The visualization idiom of a scatter plot was an appropriate choice for this dataset because it shows the relationship between marriange and divorce numbers from 1977 to 1997, highlighting trends over time and to see if there may be a correlation between the two values.
 
-- <img src="Marriage and Divorce rate 1977 to 1997.png" height="200" alt="Marriage and Death numbers from 1977 to 1997 Scatter Plot">
+- <img src="Marriage and Divorce rate 1977 to 1997.png" height="250" alt="Marriage and Death numbers from 1977 to 1997 Scatter Plot">
 Idiom: Scatterplot / Mark: Point
 | Data: Attribute | Data: Attribute Type  | Encode: Channel | 
 | --- |---| --- |
