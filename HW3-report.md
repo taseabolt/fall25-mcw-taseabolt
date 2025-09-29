@@ -18,8 +18,8 @@ Due: September 28, 2025
 - Idiom: Bar Chart / Mark: Line  
 | Data: Attribute | Data: Attribute Type  | Encode: Channel | 
 | --- |---| --- |
-| type of fuel | key, categorical | separate, horizontal position (x-axis) |  
-| average price | value, quantitative | aligned vertical position (y-axis) |  
+| type of fuel | key, categorical | separate, horizontal position (x-axis) |
+| average price | value, quantitative | aligned vertical position (y-axis) |
 
 - Link to Excel workbook: ([Average Price of Fuel & Electricity in 2010](https://github.com/odu-cs625-datavis/fall25-mcw-taseabolt/blob/e1f8c3b13d92b2760a74a60596b752aaea95ca8f/Avg%20Price%20Fuel%20Electricity.xlsx))
   
