@@ -16,8 +16,8 @@ Due: September 28, 2025
 
 - <img src="Ave Price Fuel Electricity.png" height="250" alt="Average Price of Fuel and Electricity in 2010">
 - Idiom: Bar Chart / Mark: Line  
-| Data: Attribute | Data: Attribute Type  | Encode: Channel | 
-| --- |---| --- |
+| Data: Attribute | Data: Attribute Type | Encode: Channel | 
+| --- | --- | --- |
 | type of fuel | key, categorical | separate, horizontal position (x-axis) |
 | average price | value, quantitative | aligned vertical position (y-axis) |
 
@@ -39,7 +39,7 @@ Due: September 28, 2025
 - <img src="Number of Veterans by Period of Service and State.png" height="250" alt="Number of Veterans by Period of Service and State">
 - Idiom: Multiple Line Chart / Mark: Points with connection marks   
 | Data: Attribute | Data: Attribute Type  | Encode: Channel | 
-| --- |---| --- |
+| --- | --- | --- |
 | state | key, ordered | seperate, horizontal position (x-axis) |
 | number of veterans | value, quantitative | aligned vertical position (y-axis) |
 | period of service | categorical | color hue |
@@ -67,7 +67,7 @@ Due: September 28, 2025
 - <img src="Marriage and Divorce rate 1977 to 1997.png" height="250" alt="Marriage and Death numbers from 1977 to 1997 Scatter Plot">
 Idiom: Scatterplot / Mark: Point  
 | Data: Attribute | Data: Attribute Type  | Encode: Channel | 
-| --- |---| --- |
+| --- | --- | --- |
 | marriage numbers | value, quantitative | horizontal spatial position (x-axis) |
 | divorce numbers | value, quantitative | vertical spatial position  (y-axis) |
 
