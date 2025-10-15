@@ -17,10 +17,10 @@ Link to excel workbooks: ([Original Table 498: Department of Defense Personnel: 
 Link to Tableau workbook:([Number of Personnel for each Armed Forces Branch (1968-2008)](https://github.com/odu-cs625-datavis/fall25-mcw-taseabolt/blob/main/Number%20of%20U.S.%20Armed%20Forces%20Personnel%20by%20Branch.twbx))
 
 
-Idiom: Multiple Line Graph / Mark: Points with connection marks  
+Idiom: Multiple Line Chart / Mark: Points with connection marks  
 | Data: Attribute | Data: Attribute Type  | Encode: Channel | 
 |---|---|---|
-| year | Key, ordered | horizontal spatial position (x-axis) |
+| year | key, ordered | horizontal spatial position (x-axis) |
 | number of armed forces personnel | value, quantitative | vertical spatial position  (y-axis) |
 | branch of service | categorical | color hue |
 
@@ -31,12 +31,6 @@ While working on creating my chart, I noticed that the number of personnel incre
 When creating my multiple line chart, I made a few different design decisions that I felt would make the visualization easy to interpret and understand, while still conveying the data presented. I added points for each data point so it is easier to see where each one falls within the overall line and because it makes it easier to see how the values change over time. In addition, I also ensured that I chose a color pallette that complemented each line but also allowed for each line to be distinct from the others. I also added tick marks on both axes so it was easier to see wheere the data points fall within the attributes on each axis. 
 
 The only special customization that I made was to the dataset. I isolated the total number of personnel from each branch and for each year. Then I utilized PowerQuery to transform the data into a long format table so that I could easily create a chart within Tableau. 
-
-
-explanation of how the idiom used in your chart is appropriate for your datasets and question/task
-discussion of any insights gained about the data from your chart
-discussion of any design decisions you made
-discussion of any special customizations you used
 
 
 ### Question 2
@@ -65,3 +59,38 @@ When creating my stacked bar chart, I made quite a few design decisions that I f
 
 The only special customization that I made was within the dataset, making sure to narrow down the data to only male and female personnel numbers in only the year 2008 for each of the braches of service. I utilized PowerQuery to transform the data into a long format table prior to uploading within Tableau for chart creation. 
 
+## Extra Credit
+Combine this table with Table 2 (Population: 1960 to 2008, from Section 1 - Population) to show the relationship between the total in armed forces service and the US population (use Resident population, including Armed Forces overseas) over time.
+
+<img src="Question 3 - EC.png" height="500" alt="Percentage of Total Resident Population that Participated in U.S. Armed Forces, 1960 - 2008">
+
+Link to Excel workbook with added sheet combining tables: ([Table 2: Population: 1960 to 2008](https://github.com/odu-cs625-datavis/fall25-mcw-taseabolt/blob/main/Table%202.xls))
+
+Link to Tableau workbook: ([Percentage of Total Resident Population that Participated in U.S. Armed Forces, 1960 - 2008](https://github.com/odu-cs625-datavis/fall25-mcw-taseabolt/blob/main/Percentage%20of%20Total%20Resident%20Population.twbx))
+
+Idiom: Line Chart / Mark: Points with connection marks  
+| Data: Attribute | Data: Attribute Type  | Encode: Channel | 
+|---|---|---|
+| year | key, ordered | horizontal spatial position (x-axis) |
+| percentage of total resident population that participated in armed forces | value, quantitative | vertical spatial position  (y-axis) |
+
+I decided to utilize a line chart idiom for my dataset because the question was specifically looking at what percentage of the U.S. Resident Population has participated in the Armed Forces over time. I was able to add a calculated field with my two values, that divided the total number of armed services personnel that I obtained from Table 298 by the total U.S. resident population (including armed services overseas) from Table 2 for each year and them multiplying each value by 100 to obtain the percentage. 
+
+While working on creating my chart, I was able to infer that the percentage of U.S. residents who participated in the Armed Forces has continued to go down over time, ever since 1968, which was during the height of the Vietnam war. Although the U.S. resident population has increased, the overall percentage of those who partipate in the Armed Forces has continued to go down. 
+
+When creating my line chart, I made quite a few design decisions that I felt helped to make my visualziation easy to understand and read. I decided to add mark labels to each of the bars, so it was easier to see the actual percentages of U.S. residents who participated in the Armed Forces for each year. I also chose a color pallette that was bright but easy to read, especially for the mark labels. I also added tick marks and chose intervals for the year that allowed the data to be presented for all years, but that didn't crowd the x-axis, allowing for minor ticks in between the regular ticks. 
+
+The only special customizations that I made was within the dataset were merging data from Table 298 into Table 2 to allow for comparision and then adding the calculated field within Tableau, to calculate the actual percentage of U.S. residents who participated in the Armed Forces over time.  
+
+
+## Further Questions
+
+## References
+* Markdown Guide: Basic Syntax, <https://markdownguide.offshoot.io/basic-syntax/>
+* Basic Writing & Formatting Syntax, <https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax>
+* Section 10: National Security & Veterans Affairs, <https://www.census.gov/library/publications/2011/compendia/statab/131ed/national-security-veterans-affairs.html>
+* Chart Redesigns, <https://github.com/odu-cs625-datavis/public-fall25-mcw/blob/main/Chart-Redesigns.md>
+* Idiom-Mark-Data-Encode Table Examples, <https://github.com/odu-cs625-datavis/public-fall25-mcw/blob/main/idiom-mark-data-encode-Examples.md>
+* Build Charts & Analyze Data, <https://help.tableau.com/current/pro/desktop/en-us/design_and_analyze.htm>
+* Build Common Charts in Data Views, <https://help.tableau.com/current/pro/desktop/en-us/dataview_examples.htm>
+* Unpivot Tables, <https://learn.microsoft.com/en-us/power-query/unpivot-column>
