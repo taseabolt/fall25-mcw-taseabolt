@@ -4,7 +4,8 @@ Tara Seabolt
 CS 625, Fall 2025  
 Due: October 11, 2025
 
-## Dataset 2: [Section 10. National Security and Veterans Affairs](https://www.census.gov/library/publications/2009/compendia/statab/129ed/national-security-veterans-affairs.html) / Table 498. Department of Defense Personnel: 1960 to 2008
+## Dataset 2: 
+### [Section 10. National Security and Veterans Affairs](https://www.census.gov/library/publications/2009/compendia/statab/129ed/national-security-veterans-affairs.html) / Table 498. Department of Defense Personnel: 1960 to 2008
 
 ### Question 1:  
 Show how the number of the total number of personnel in each of the armed forces (Army, Navy, Marine Corps, Air Force) has changed over time.
