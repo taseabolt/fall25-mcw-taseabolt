@@ -9,12 +9,12 @@ Due: October 11, 2025
 ### Question 1:  
 Show how the number of the total number of personnel in each of the armed forces (Army, Navy, Marine Corps, Air Force) has changed over time.
 
-<img src="Question 1 chart.png" height="250" alt="Total Number of Personnel for each Armed Forces Branch (1960-2008)">
+<img src="Question 1 chart.png" height="350" alt="Total Number of Personnel for each Armed Forces Branch (1960-2008)">
 
-Link to excel workbooks: ([Original Table 498: Department of Defense Personnel: 1960 to 2008](https://github.com/odu-cs625-datavis/fall25-mcw-taseabolt/blob/main/Original%20Table%20498.xlsx)
-([Edited Long Format Table 498: Department of Defense Personnel: 1960 to 2008](https://github.com/odu-cs625-datavis/fall25-mcw-taseabolt/blob/main/Table%20498%20-%20Long%20Format.xlsx)
+Link to excel workbooks: ([Original Table 498: Department of Defense Personnel: 1960 to 2008](https://github.com/odu-cs625-datavis/fall25-mcw-taseabolt/blob/main/Original%20Table%20498.xlsx))
+([Edited Long Format Table 498: Department of Defense Personnel: 1960 to 2008](https://github.com/odu-cs625-datavis/fall25-mcw-taseabolt/blob/main/Table%20498%20-%20Long%20Format.xlsx))
 
-Link to Tableau workbook:([Number of Personnel for each Armed Forces Branch (1968-2008)](https://github.com/odu-cs625-datavis/fall25-mcw-taseabolt/blob/main/Number%20of%20U.S.%20Armed%20Forces%20Personnel%20by%20Branch.twbx)
+Link to Tableau workbook:([Number of Personnel for each Armed Forces Branch (1968-2008)](https://github.com/odu-cs625-datavis/fall25-mcw-taseabolt/blob/main/Number%20of%20U.S.%20Armed%20Forces%20Personnel%20by%20Branch.twbx))
 
 
 Idiom: Multiple Line Graph / Mark: Points with connection marks  
