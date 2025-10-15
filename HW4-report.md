@@ -42,7 +42,12 @@ discussion of any special customizations you used
 ### Question 2
 Compare the proportion of male to female enlisted for each of the armed forces in 2008.
 
+<img src="Question 2 Chart.png" height="450" alt="Comparison of male to female enlisted for each Armed Forces Branch (2008)">
 
+Link to excel workbooks: ([Original Table 498: Department of Defense Personnel: 1960 to 2008](https://github.com/odu-cs625-datavis/fall25-mcw-taseabolt/blob/main/Original%20Table%20498.xlsx))
+([Edited Long Format Table 498: Department of Defense Personnel: 1960 to 2008](https://github.com/odu-cs625-datavis/fall25-mcw-taseabolt/blob/main/Table%20498%20-%20Long%20Format.xlsx))
+
+Link to Tableau workbook:([Comparision of male to female enlisted for each Armed Services Branch (2008)](https://github.com/odu-cs625-datavis/fall25-mcw-taseabolt/blob/main/Comparison%20of%20proporition%20of%20male%20to%20female%20enlisted%20for%20each%20branch.twbx))
 
 Idiom: Stacked Bar Chart / Mark: Line 
 | Data: Attribute | Data: Attribute Type  | Encode: Channel | 
