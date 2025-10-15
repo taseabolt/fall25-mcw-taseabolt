@@ -20,7 +20,7 @@ Idiom: Multiple Line Graph / Mark: Points with connection marks
 | number of armed forces personnel | value, quantitative | vertical spatial position  (y-axis) |
 | branch of service | categorical | color hue |
 
-I decided to utilize the multiple line chart idiom for my dataset because the question was specifically looking at how an attribute has changed over time. The multiple lines allowed me to incorproate the different categories of branches of service while having the years on the x-axis and the quantiative number of personnel value on the y-axis. 
+I decided to utilize the multiple line chart idiom for my dataset because the question was specifically looking at how an attribute has changed over time. The multiple lines allowed me to incorproate the different branches of service categories as different lines while having the years on the x-axis and the quantiative number of personnel value on the y-axis. 
 
 While working on creating my chart, I noticed that the number of personnel increased around the time of the Vietnam war, with a signifiant increase in Army personnel during 1968. This correlates with history since many service members joined or were drafted during this war-time period. In addition, I also gained insight into how the Army tends to have higher numbers of personnel over other branches and that the Marine Corps tend to have the lowest numbers of personnel over the four branches.
 
@@ -37,3 +37,19 @@ discussion of any special customizations you used
 
 ### Question 2
 Compare the proportion of male to female enlisted for each of the armed forces in 2008.
+
+
+Idiom: Stacked Bar Chart / Mark: Line 
+| Data: Attribute | Data: Attribute Type  | Encode: Channel | 
+|---|---|---|
+| branch of service | Key, categorical | horizontal spatial position (x-axis) |
+| gender | secondary key, categorical | vertical region (y-axis) |
+| number of personnel | value, quantitative | unaligned inner vertical spatial region (y-axis) |
+| gender | categorical | color hue |
+
+I decided to utilize the stacked bar chart idiom for my dataset because the question was looking to compare the number of male enlisted to number of female enlisted for each of the armed forces in 2008. The stacked bars allows me to show the proportions of both male enlisted and female enslisted in the same bar on for each of the braches of service on the x-axis, while also allowing the user to see the total of enlisted for each branch on the y-axis as well. 
+
+While working on creating my chart, I noticed that the number of males enslisted is always higher than the number of females enlisted. The chart also provided insight into which branches of service each of the genders preferred, which actually ended up being the same for both: the Army. 
+
+When creating my stacked bar chart, I made quite a few design decisions that I felt added to being able to understand what the data is trying to convey, while still making the visualization simple and easy to understand. I decided to add mark labels to each of the bars, so it was easier to see the difference in the number of males versus females for each branch of service. I also chose a color pallette that correlated with traditional gender colors, making it easier to understand which bar / mark represents which gender.
+
