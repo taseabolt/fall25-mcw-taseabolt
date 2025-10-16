@@ -9,7 +9,7 @@ Due: October 11, 2025
 ### Question 1:  
 Show how the number of the total number of personnel in each of the armed forces (Army, Navy, Marine Corps, Air Force) has changed over time.
 
-<img src="Question 1 chart.png" height="450" alt="Total Number of Personnel for each Armed Forces Branch (1960-2008)">
+<img src="Question 1 chart.png" height="500" alt="Total Number of Personnel for each Armed Forces Branch (1960-2008)">
 
 Link to excel workbooks: ([Original Table 498: Department of Defense Personnel: 1960 to 2008](https://github.com/odu-cs625-datavis/fall25-mcw-taseabolt/blob/main/Original%20Table%20498.xlsx))
 ([Edited Long Format Table 498: Department of Defense Personnel: 1960 to 2008](https://github.com/odu-cs625-datavis/fall25-mcw-taseabolt/blob/main/Table%20498%20-%20Long%20Format.xlsx))
@@ -36,7 +36,7 @@ The only special customization that I made was to the dataset. I isolated the to
 ### Question 2
 Compare the proportion of male to female enlisted for each of the armed forces in 2008.
 
-<img src="Question 2 Chart.png" height="450" alt="Comparison of male to female enlisted for each Armed Forces Branch (2008)">
+<img src="Question 2 Chart.png" height="500" alt="Comparison of male to female enlisted for each Armed Forces Branch (2008)">
 
 Link to excel workbooks: ([Original Table 498: Department of Defense Personnel: 1960 to 2008](https://github.com/odu-cs625-datavis/fall25-mcw-taseabolt/blob/main/Original%20Table%20498.xlsx))
 ([Edited Long Format Table 498: Department of Defense Personnel: 1960 to 2008](https://github.com/odu-cs625-datavis/fall25-mcw-taseabolt/blob/main/Table%20498%20-%20Long%20Format.xlsx))
