@@ -4,11 +4,13 @@ Tara Seabolt
 CS 625, Fall 2025  
 Due: November 2, 2025
 
-## Dataset: [Section 10. National Security and Veterans Affairs](https://www.census.gov/library/publications/2009/compendia/statab/129ed/national-security-veterans-affairs.html) / Table 498. Department of Defense Personnel: 1960 to 2008
+## Dataset: [Section 1. Population]([https://www.census.gov/library/publications/2009/compendia/statab/129ed/national-security-veterans-affairs.html](https://www.census.gov/library/publications/2010/compendia/statab/130ed/population.html)) / Table 29 - Urban and Rural Population by State
 
 ## Part 1: Create Distribution Charts
 
 ### describe any data manipulation you needed to perform before creating the charts
+
+Prior to creating my charts, I made changes to the data provided by narrowing down the selected data to only what was needed and re-formatting the data using Tableau, where I pivoted the data to a long format for better handling in the visualization creation process. I selected only the 50 states from the original dataset, eliminating the overall United States totals and the District of Columbia. Then I narrowed down the data to just the overall urban and rural populations for the year 2000.  
 
 describe each of your charts and how they were created (explain the code you used and include code snippets)
 discuss the advantages and disadvantages of each type of distribution chart idiom for showing these distributions (talk specifically about these distributions, not just their advantages and disadvantages in general)
