@@ -10,13 +10,17 @@ Due: November 2, 2025
 
 ### describe any data manipulation you needed to perform before creating the charts
 
-Prior to creating my charts, I made changes to the data provided by narrowing down the selected data to only what was needed and re-formatting the data using Tableau, where I pivoted the data to a long format for better handling in the visualization creation process. I selected only the 50 states from the original dataset, eliminating the overall United States totals and the District of Columbia. Then I narrowed down the data to just the overall urban and rural populations for the year 2000.  
+Prior to creating my charts, I made changes to the data provided by narrowing down the selected data to only what was needed and re-formatting the data using Tableau, where I pivoted the data to a long format for better handling in the visualization creation process. I selected only the 50 states from the original dataset, eliminating the overall United States totals and the District of Columbia. Then I narrowed down the data to just the overall urban and rural populations for the year 2000.
+
+Link to Excel workbook with added sheet and table: ([Table 29: Urban and Rural Population by State]([https://github.com/odu-cs625-datavis/fall25-mcw-taseabolt/blob/main/Table%202.xls](https://github.com/odu-cs625-datavis/fall25-mcw-taseabolt/blob/main/Table%2029.xlsx)))
+
+Link to Tableau workbook: ([HW5 - Urban & Rural Population Distributions](https://github.com/odu-cs625-datavis/fall25-mcw-taseabolt/blob/main/HW5.twb))
+
+### Box Plot Chart: Distribution of Urban and Rural Populations in the year 2000 (per 1,000)
 
 describe each of your charts and how they were created (explain the code you used and include code snippets)
 discuss the advantages and disadvantages of each type of distribution chart idiom for showing these distributions (talk specifically about these distributions, not just their advantages and disadvantages in general)
 name 1-2 simple observations you can draw from each chart
-
-### Box Plot Chart: Distribution of Urban and Rural Populations in the year 2000 (per 1,000)
 
 <img src="BoxPlot.png" height="500" alt="Distribution of Urban and Rural Populations in 2000 (per 1,000)">
 
@@ -36,18 +40,16 @@ For this chart, I created a eCDF plot in Tableau with the line option. I placed 
 
 ## Part 2: Further Analysis
 
+****Interesting Finding 1****
+
 Use the charts that you created in Part 1 to guide further investigation of the data. I expect to see additional charts created in this part. This could be other types of charts that reveal something interesting.
 
 State at least 2 interesting findings about the data and explain how you used one or more of the distribution charts to guide the investigation into this finding. These findings must be something more than a simple observation from the base charts. For example, I want something more than "80% of the states in the US have more than 1 million people". (This may or may not be true, it's just an example.)
 
 It is fine if you want to consult additional datasets as part of your analysis.
 
-Things to Remember
+****Interesting Finding 2****
 
-Look at the data before you start creating charts.
-Do a sanity-check on your results. Do they make sense?
-Review the in-class tutorial and read the documentation before you search the web for examples.
-Include informative axis labels and chart titles.
 
 
 ## References
@@ -58,3 +60,4 @@ Include informative axis labels and chart titles.
 * Build Charts & Analyze Data, <https://help.tableau.com/current/pro/desktop/en-us/design_and_analyze.htm>
 * Build a Box Plot, <https://help.tableau.com/current/pro/desktop/en-us/buildexamples_boxplot.htm>
 * Unpivot Tables, <https://learn.microsoft.com/en-us/power-query/unpivot-column>
+* Emperical Culmulative Distribution Function (CDF) Plots, <https://statisticsbyjim.com/graphs/empirical-cumulative-distribution-function-cdf-plots/#google_vignette>
