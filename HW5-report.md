@@ -4,7 +4,7 @@ Tara Seabolt
 CS 625, Fall 2025  
 Due: November 2, 2025
 
-## Dataset: ([Section 1. Population](https://www.census.gov/library/publications/2010/compendia/statab/130ed/population.html))  / Table 29 - Urban and Rural Population by State
+### Dataset: ([Section 1. Population](https://www.census.gov/library/publications/2010/compendia/statab/130ed/population.html))  / Table 29 - Urban and Rural Population by State
 
 ## Part 1: Create Distribution Charts
 
